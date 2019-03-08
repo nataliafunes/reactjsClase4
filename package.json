@@ -1,0 +1,29 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "Primer proyecto React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EduIT",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-router": "^4.3.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1"
+  }
+}
